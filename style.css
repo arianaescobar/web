@@ -53,7 +53,8 @@ a {
   text-decoration: none;
 }
 .Poppins {
-  font-family: Poppins-SemiBold, serif !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 80px;
   line-height: 90px;
   margin-bottom: 150px;
@@ -88,7 +89,8 @@ a {
   display: block;
 }
 .Message {
-  font-family: Poppins-SemiBold, serif !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 20px;
 }
 
