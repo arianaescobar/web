@@ -81,19 +81,3 @@ a {
   font-weight: 600;
   font-size: 20px;
 }
-
-
-/* Media queries */
-
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .inner {
-      padding: 5% 10%;
-    }
-    .Poppins {
-      font-size: 10em;
-      line-height: 1.5em;
-    }
-}
