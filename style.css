@@ -55,10 +55,16 @@ a {
   background-position: 0 1.2em;
   background-size: 80px 20px;
 }
+.underline--bacon:hover {
+  color: #F24440;
+}
 .underline--burntbacon {
   background-image: url("burnt-bacon.svg");
   background-position: 0 1.2em;
   background-size: 80px 20px;
+}
+.underline--burntbacon:hover {
+  color: #000000;
 }
 
 
