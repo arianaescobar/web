@@ -99,12 +99,12 @@ a {
 
 @media screen and (max-width: 1920px) {
   .inner {
-    padding: 0 20px;
+    padding: 0 0;
   }
 
   .Poppins {
     font-size: 8em;
-    line-height: 1.4em;
+    line-height: 1.3em;
     margin-bottom: 150px;
   }
 }
