@@ -101,4 +101,10 @@ a {
   .inner {
     padding: 0 20px;
   }
+
+  .Poppins {
+    font-size: 6em;
+    line-height: 1.2em;
+    margin-bottom: 150px;
+  }
 }
