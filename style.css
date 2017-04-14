@@ -55,8 +55,8 @@ a {
 .Poppins {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 80px;
-  line-height: 90px;
+  font-size: 5em;
+  line-height: 1.1em;
   margin-bottom: 150px;
 }
 .underline {
@@ -97,7 +97,7 @@ a {
 
 /* Media queries */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1920px) {
   .inner {
     padding: 0 20px;
   }
