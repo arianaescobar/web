@@ -97,13 +97,8 @@ a {
 
 /* Media queries */
 
-@media screen, handheld and (max-width: 1920px) {
+@media screen and (max-width: 769px) {
   .inner {
-    padding: 0 0;
-  }
-  .Poppins {
-    font-size: 8em;
-    line-height: 1.3em;
-    margin-bottom: 150px;
+    padding: 0 20px;
   }
 }
