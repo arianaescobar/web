@@ -96,4 +96,8 @@ a {
     .inner {
       padding: 5% 10%;
     }
+    .Poppins {
+      font-size: 7em;
+      line-height: 1.3em;
+    }
 }
