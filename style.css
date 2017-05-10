@@ -47,6 +47,9 @@ a {
   line-height: 1.2em;
   margin-bottom: 150px;
 }
+.email {
+  word-break: break-word;
+}
 .underline {
   background-repeat: repeat-x;
 }
