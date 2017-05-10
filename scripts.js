@@ -1,9 +1,9 @@
 $(function() {
    $(window).scroll(function () {
-      if ($(this).scrollTop() > 2200) {
+      if ($(this).scrollTop() > 2500) {
          $('body').addClass('changeColor3')
       }
-      if ($(this).scrollTop() < 2200) {
+      if ($(this).scrollTop() < 2500) {
          $('body').removeClass('changeColor3')
       }
       if ($(this).scrollTop() > 1600) {
