@@ -2,23 +2,31 @@ body {
   height: 100%;
   transition: 1s all;
   margin: 0 auto;
-  background: #FFDBE4;
-  color: #F24440;
+  background: #F24440;
+  color: #FFFFFF;
 }
 
 /* Backgrounds */
 
 .changeColor {
-  background: #F24440;
-  color: #FFDBE4;
-}
-.changeColor2 {
-  background: #000000;
+  background: #FF8C00;
   color: #FFFFFF;
 }
+.changeColor2 {
+  background: #FFED00;
+  color: #000000;
+}
 .changeColor3 {
-  background: #FFDBE4;
-  color: #F24440;
+  background: #73C86B;
+  color: #FFFFFF;
+}
+.changeColor4 {
+  background: #1785FB;
+  color: #FFFFFF;
+}
+.changeColor5 {
+  background: #8364C5;
+  color: #FFFFFF;
 }
 
 
