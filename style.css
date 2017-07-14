@@ -2,33 +2,24 @@ body {
   height: 100%;
   transition: 1s all;
   margin: 0 auto;
-  background: #F24440;
-  color: #FFFFFF;
+  background: #FFDBE4;
+  color: #F24440;
 }
 
 /* Backgrounds */
 
 .changeColor {
-  background: #FF8C00;
-  color: #FFFFFF;
+  background: #F24440;
+  color: #FFDBE4;
 }
 .changeColor2 {
-  background: #FFED00;
-  color: #000000;
+  background: #000000;
+  color: #FFFFFF;
 }
 .changeColor3 {
-  background: #73C86B;
-  color: #FFFFFF;
+  background: #FFDBE4;
+  color: #F24440;
 }
-.changeColor4 {
-  background: #1785FB;
-  color: #FFFFFF;
-}
-.changeColor5 {
-  background: #8364C5;
-  color: #FFFFFF;
-}
-
 
 /* Layout */
 
