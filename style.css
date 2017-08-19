@@ -26,11 +26,41 @@ li {
 
 .red body{
   background: #F24440;
-  color: #FFDBE4;
+  color: #FFFFFF;
 }
 
 .blue body{
   background: #1785FB;
+  color: #FFFFFF;
+}
+
+.green body{
+  background: #23AD5E;
+  color: #FFFFFF;
+}
+
+.violet body{
+  background: #967CD2;
+  color: #FFFFFF;
+}
+
+.purple body{
+  background: #5e5aff;
+  color: #FFFFFF;
+}
+
+.teal body{
+  background: #046F84;
+  color: #FFFFFF;
+}
+
+.yellow body{
+  background: #d89a05;
+  color: #FFFFFF;
+}
+
+.cobalt body{
+  background: #2956d9;
   color: #FFFFFF;
 }
 
@@ -115,6 +145,9 @@ a {
   line-height: 1.2em;
   margin-bottom: 150px;
 }
+.Portfolio-content {
+  max-width: 90%;
+}
 .Portfolio-list {
   font-size: 3em;
   color: #F24440;
@@ -124,7 +157,6 @@ a {
   background-position: 0 2.4em;
   background-size: 60px 100px;
 }
-
 .Portfolio-list:hover {
   color: #000000;
 }
@@ -135,9 +167,10 @@ a {
   margin-bottom: 50px;
 }
 .Portfolio-p {
-  font-size: 2.3em;
-  line-height: 1.3em;
+  font-size: 2.4em;
+  line-height: 1.4em;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 .email {
   word-break: break-word;
@@ -223,6 +256,10 @@ a {
 
   .Company-info {
     display: none;
+  }
+
+  .Portfolio-content {
+    max-width: 100%;
   }
 
   .Portfolio-list {
