@@ -242,12 +242,12 @@ a {
 
   .underline--bacon {
     background-position: 0 1em;
-    background-size: 60px 20px;
+    background-size: 50px 20px;
   }
 
   .underline--burntbacon {
     background-position: 0 1em;
-    background-size: 60px 20px;
+    background-size: 50px 20px;
   }
 
   .Poppins {
@@ -299,8 +299,8 @@ a {
 
   .Portfolio-p {
     padding: 15px 0;
-    font-size: 1.4em;
-    line-height: 1.4em;
+    font-size: 2em;
+    line-height: 1em;
   }
 
   .Portfolio-image {
