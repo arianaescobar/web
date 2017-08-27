@@ -1,3 +1,5 @@
+/* Base */
+
 body {
   height: 100%;
   transition: 1s all;
@@ -5,7 +7,16 @@ body {
   background: #FFDBE4;
   color: #F24440;
 }
-
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
   -webkit-margin-before: 0em;
@@ -14,48 +25,40 @@ ul {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0px;
 }
-
 li {
   margin-bottom: 1.5em;
 }
+
+/* Backgrounds */
 
 .pink body{
   background: #FFDBE4;
   color: #F24440;
 }
-
 .red body{
   background: #F24440;
   color: #FFFFFF;
 }
-
 .blue body{
   background: #1785FB;
   color: #FFFFFF;
 }
-
 .green body{
   background: #23AD5E;
   color: #FFFFFF;
 }
-
 .violet body{
   background: #967CD2;
   color: #FFFFFF;
 }
-
 .purple body{
   background: #5e5aff;
   color: #FFFFFF;
 }
-
 .teal body{
   background: #046F84;
   color: #FFFFFF;
 }
-
-/* Backgrounds */
-
 .changeColor {
   background: #F24440;
   color: #FFDBE4;
@@ -71,75 +74,68 @@ li {
 
 /* Layout */
 
+.Flex {
+  display: flex;
+}
 .inner {
   position: relative;
   margin-right: auto;
   margin-left: auto;
   padding: 7% 10%;
 }
-
+.Portfolio-content {
+  max-width: 1400px;
+}
 .Company-section {
   margin: 80px 0 0 0;
   display: flex;
 }
-
 .Company-data {
   width: 40%;
   margin-right: 50px;
   margin-bottom: 20px;
 }
-
 .Company-projects {
   width: 60%;
 }
 
 /* Font */
 
-p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 2em;
-  margin: 0;
+.Poppins {
+  font-size: 5em;
+  line-height: 1.2em;
+  margin-bottom: 150px;
 }
-a {
-  color: inherit;
-  text-decoration: none;
+.underline {
+  background-repeat: repeat-x;
+}
+.underline--bacon {
+  background-image: url("bacon.svg");
+  background-position: 0 1.2em;
+  background-size: 80px 20px;
+}
+.underline--bacon:hover {
+  color: #F24440;
+}
+.underline--burntbacon {
+  background-image: url("burnt-bacon.svg");
+  background-position: 0 1.2em;
+  background-size: 80px 20px;
+}
+.underline--burntbacon:hover {
+  color: #000000;
+}
+.email {
+  word-break: break-word;
 }
 .Link:hover {
   color: #000000;
 }
 .Company {
   font-size: 2em;
-
 }
 .Company-info {
   font-size: 1.5em;
-}
-.Flex {
-  display: flex;
-}
-.Top50 {
-  margin-top: 5%;
-}
-.Arrow {
-  padding-right: 10px;
-}
-.Back {
-  font-size: 20px;
-  background-image: url("burnt-bacon.svg");
-  background-position: 0 2.4em;
-  background-size: 40px 40px;
-}
-.Back:hover {
-  color: #000000;
-}
-.Poppins {
-  font-size: 5em;
-  line-height: 1.2em;
-  margin-bottom: 150px;
-}
-.Portfolio-content {
-  max-width: 1400px;
 }
 .Portfolio-list {
   font-size: 3em;
@@ -165,6 +161,27 @@ a {
   padding: 25px 0;
   font-weight: 500;
 }
+
+/* Back Arrow */
+
+.Top50 {
+  margin-top: 5%;
+}
+.Arrow {
+  padding-right: 10px;
+}
+.Back {
+  font-size: 20px;
+  background-image: url("burnt-bacon.svg");
+  background-position: 0 2.4em;
+  background-size: 40px 40px;
+}
+.Back:hover {
+  color: #000000;
+}
+
+/* Assets */
+
 .Portfolio-image {
   width: 100%;
   margin: 2% 0%;
@@ -189,29 +206,6 @@ a {
     width: 100%;
     height: 100%;
 }
-.email {
-  word-break: break-word;
-}
-.underline {
-  background-repeat: repeat-x;
-}
-.underline--bacon {
-  background-image: url("bacon.svg");
-  background-position: 0 1.2em;
-  background-size: 80px 20px;
-}
-.underline--bacon:hover {
-  color: #F24440;
-}
-.underline--burntbacon {
-  background-image: url("burnt-bacon.svg");
-  background-position: 0 1.2em;
-  background-size: 80px 20px;
-}
-.underline--burntbacon:hover {
-  color: #000000;
-}
-
 
 /* Face */
 
@@ -233,75 +227,69 @@ a {
   font-size: 20px;
 }
 
-
 @media (min-width: 300px) and (max-width: 720px) {
 
+  /* Layout */
+
   .inner {
-    padding: 7%;
+    padding: 5% 5%;
+  }
+  .Company-section {
+    flex-direction: column;
+    margin: 50px 0 0 0;
+  }
+  .Company-data {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .Company-projects {
+    width: 100%;
+  }
+  .Company-info {
+    display: none;
+  }
+  .Portfolio-content {
+    max-width: 100%;
   }
 
-  .underline--bacon {
-    background-position: 0 1em;
-    background-size: 50px 20px;
-  }
-
-  .underline--burntbacon {
-    background-position: 0 1em;
-    background-size: 50px 20px;
-  }
+  /* Font */
 
   .Poppins {
     font-size: 1.8em;
     line-height: 1.4em;
     margin-bottom: 50px;
   }
-
-  .Company-section {
-    flex-direction: column;
-    margin: 50px 0 0 0;
+  .underline--bacon {
+    background-position: 0 1em;
+    background-size: 50px 20px;
   }
-
-  .Company-data {
-    width: 100%;
-    margin-right: 0px;
-    margin-bottom: 30px;
+  .underline--burntbacon {
+    background-position: 0 1em;
+    background-size: 50px 20px;
   }
-
-  .Company-projects {
-    width: 100%;
-  }
-
   .Company {
     font-size: 1.2em;
   }
-
-  .Company-info {
-    display: none;
-  }
-
-  .Portfolio-content {
-    max-width: 100%;
-  }
-
   .Portfolio-list {
     font-size: 2em;
     line-height: 1em;
     background-position: 0 0.7em;
     background-size: 60px 50px;
   }
-
   .Portfolio-h2 {
     font-size: 3em;
     line-height: 1.2em;
     margin-top: 25px;
     margin-bottom: 10px;
   }
-
   .Portfolio-p {
     padding: 15px 0;
     font-size: 2em;
     line-height: 1em;
   }
+
+  /* Assets */
 
   .Portfolio-image {
     border-radius: 2px;
