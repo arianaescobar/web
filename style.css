@@ -59,6 +59,10 @@ li {
   background: #046F84;
   color: #FFFFFF;
 }
+.orange body{
+  background: #FF4003;
+  color: #FFFFFF;
+}
 .changeColor {
   background: #F24440;
   color: #FFDBE4;
