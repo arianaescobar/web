@@ -299,3 +299,31 @@ li {
     border-radius: 2px;
   }
 }
+
+/* Halloween */
+
+.body-halloween {
+  background: #FF8E00;
+  color: #000000;
+}
+.halloween-2 {
+  background: #000000;
+  color: #FF8E00;
+}
+.halloween-3 {
+  background: #FF8E00;
+  color: #000000;
+}
+.Poppins-halloween {
+  font-family: 'Creepster', sans-serif;
+  font-size: 7em;
+  letter-spacing: 3px;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.a-halloween {
+  color: #FFFFFF;
+}
+.a-halloween:hover {
+  color: #7b42ff;
+}
