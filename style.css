@@ -299,3 +299,41 @@ li {
     border-radius: 2px;
   }
 }
+
+/* Halloween */
+
+.body-halloween {
+  background: #FF8E00;
+  color: #000000;
+}
+.halloween-2 {
+  background: #000000;
+  color: #FF8E00;
+}
+.halloween-3 {
+  background: #FFFFFF;
+  color: #000000;
+}
+.halloween-4 {
+  background: #FF8E00;
+  color: #000000;
+}
+.Poppins-halloween {
+  font-family: 'Creepster', sans-serif;
+  font-size: 7em;
+  letter-spacing: 3px;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.a-halloween {
+  color: #FFFFFF;
+}
+.a-halloween2 {
+  color: #99DE00;
+}
+.a-halloween:hover {
+  color: #7b42ff;
+}
+.a-halloween2:hover {
+  color: #7b42ff;
+}
