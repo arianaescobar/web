@@ -1,16 +1,22 @@
 $(function() {
    $(window).scroll(function () {
-      if ($(this).scrollTop() > 3000) {
-         $('body').addClass('halloween-3')
+      if ($(this).scrollTop() > 2350) {
+         $('body').addClass('changeColor3')
       }
-      if ($(this).scrollTop() < 3000) {
-         $('body').removeClass('halloween-3')
+      if ($(this).scrollTop() < 2350) {
+         $('body').removeClass('changeColor3')
       }
-      if ($(this).scrollTop() > 1000) {
-         $('body').addClass('halloween-2')
+      if ($(this).scrollTop() > 1550) {
+         $('body').addClass('changeColor2')
+      }
+      if ($(this).scrollTop() < 1550) {
+         $('body').removeClass('changeColor2')
+      }
+      if ($(this).scrollTop() > 500) {
+         $('body').addClass('changeColor')
          }
-      if ($(this).scrollTop() < 1000) {
-         $('body').removeClass('halloween-2')
+      if ($(this).scrollTop() < 500) {
+         $('body').removeClass('changeColor')
        }
    });
 });
