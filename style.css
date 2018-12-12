@@ -4,8 +4,8 @@ body {
   height: 100%;
   transition: 1s all;
   margin: 0 auto;
-  background: #430098;
-  color: #40f27a;
+  background: #FFDBE4;
+  color: #F24440;
 }
 p {
   font-family: 'Poppins', sans-serif;
@@ -64,7 +64,7 @@ li {
   color: #FFFFFF;
 }
 .changeColor {
-  background: #79589F;
+  background: #430098;
   color: #FFFFFF;
 }
 .changeColor2 {
@@ -302,35 +302,4 @@ li {
   .Portfolio-image {
     border-radius: 2px;
   }
-}
-
-/* Halloween */
- .body-halloween {
-  background: #430098;
-  color: #40f27a;
-}
-.halloween-2 {
-  background: #000000;
-  color: #FF8E00;
-}
-.halloween-3 {
-  background: #FF8E00;
-  color: #000000;
-}
-.Poppins-halloween {
-  font-family: 'Creepster', sans-serif;
-  font-size: 6em;
-  letter-spacing: 3px;
-  line-height: 1.2em;
-  margin-bottom: 150px;
-}
-.Message-halloween {
-  font-family: 'Creepster', sans-serif;
-  font-size: 2em;
-}
-.a-halloween {
-  color: #FFFFFF;
-}
-.a-halloween:hover {
-  color: #7b42ff;
 }
