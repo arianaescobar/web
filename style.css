@@ -63,6 +63,10 @@ li {
   background: #FF4003;
   color: #FFFFFF;
 }
+.gray body{
+  background: #d7fd40;
+  color: #000000;
+}
 .changeColor {
   background: #430098;
   color: #FFFFFF;
@@ -91,6 +95,9 @@ li {
   margin-left: auto;
   padding: 7% 10%;
 }
+.max {
+  max-width: 940px;
+}
 .Portfolio-content {
   max-width: 1400px;
 }
@@ -105,6 +112,10 @@ li {
 }
 .Company-projects {
   width: 60%;
+}
+.Ethics-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Font */
@@ -145,6 +156,40 @@ li {
 .Company-info {
   font-size: 1.5em;
 }
+
+.Ethics-title {
+  font-size: 3em;
+  line-height: 1.4em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  color: #000000;
+}
+.Ethics {
+  font-size: 2em;
+  line-height: 1.4em;
+  padding-bottom: 1em;
+}
+.Ethics-info {
+  font-size: 1.4em;
+  padding-bottom: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.Ethics-credit {
+  font-size: 1.2em;
+  padding-top: 2em;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #668000;
+}
+.Ethics-link {
+  background-image: url("burnt-bacon.svg");
+  background-position: 0 2.4em;
+  background-size: 42px 42px;
+}
+.Ethics-link:hover {
+  color: #000000;
+}
 .Portfolio-list {
   font-size: 3em;
   color: #F24440;
@@ -152,7 +197,7 @@ li {
   line-height: 1.2em;
   background-image: url("burnt-bacon.svg");
   background-position: 0 2.4em;
-  background-size: 60px 100px;
+  background-size: 60px 115px;
 }
 .Portfolio-list:hover {
   color: #000000;
@@ -168,6 +213,15 @@ li {
   line-height: 1.4em;
   padding: 25px 0;
   font-weight: 500;
+}
+.Portfolio-link {
+    background-image: url("burnt-bacon.svg");
+    background-position: 0 1.2em;
+    background-size: 40px 5px;
+    background-repeat: repeat-x;
+}
+.Portfolio-link:hover {
+  color: #000000;
 }
 
 /* Back Arrow */
@@ -186,6 +240,16 @@ li {
 }
 .Back:hover {
   color: #000000;
+}
+.Back-white {
+  font-size: 20px;
+  background-image: url("bacon-white.svg");
+  background-position: 0 2.4em;
+  background-size: 40px 40px;
+}
+.Back-white:hover {
+  color: #F24440;
+  background-image: url("bacon.svg");
 }
 
 /* Assets */
