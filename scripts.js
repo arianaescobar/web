@@ -18,10 +18,10 @@ $(function() {
       if ($(this).scrollTop() < 1200) {
          $('body').removeClass('changeColor2')
       }
-      if ($(this).scrollTop() > 600) {
+      if ($(this).scrollTop() > 800) {
          $('body').addClass('changeColor')
          }
-      if ($(this).scrollTop() < 600) {
+      if ($(this).scrollTop() < 800) {
          $('body').removeClass('changeColor')
        }
    });
