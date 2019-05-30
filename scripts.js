@@ -1,28 +1,40 @@
 $(function() {
    $(window).scroll(function () {
-      if ($(this).scrollTop() > 2500) {
-         $('body').addClass('changeColor4')
+      if ($(this).scrollTop() > 3700) {
+         $('body').addClass('bg6')
       }
-      if ($(this).scrollTop() < 2500) {
-         $('body').removeClass('changeColor4')
+      if ($(this).scrollTop() < 3700) {
+         $('body').removeClass('bg6')
       }
-      if ($(this).scrollTop() > 1800) {
-         $('body').addClass('changeColor3')
+      if ($(this).scrollTop() > 3200) {
+         $('body').addClass('bg5')
       }
-      if ($(this).scrollTop() < 1800) {
-         $('body').removeClass('changeColor3')
+      if ($(this).scrollTop() < 3200) {
+         $('body').removeClass('bg5')
       }
-      if ($(this).scrollTop() > 1200) {
-         $('body').addClass('changeColor2')
+      if ($(this).scrollTop() > 2600) {
+         $('body').addClass('bg4')
       }
-      if ($(this).scrollTop() < 1200) {
-         $('body').removeClass('changeColor2')
+      if ($(this).scrollTop() < 2600) {
+         $('body').removeClass('bg4')
       }
-      if ($(this).scrollTop() > 800) {
-         $('body').addClass('changeColor')
+      if ($(this).scrollTop() > 2000) {
+         $('body').addClass('bg3')
+      }
+      if ($(this).scrollTop() < 2000) {
+         $('body').removeClass('bg3')
+      }
+      if ($(this).scrollTop() > 1500) {
+         $('body').addClass('bg2')
+      }
+      if ($(this).scrollTop() < 1500) {
+         $('body').removeClass('bg2')
+      }
+      if ($(this).scrollTop() > 1000) {
+         $('body').addClass('bg1')
          }
-      if ($(this).scrollTop() < 800) {
-         $('body').removeClass('changeColor')
+      if ($(this).scrollTop() < 1000) {
+         $('body').removeClass('bg1')
        }
    });
 });

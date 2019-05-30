@@ -4,8 +4,8 @@ body {
   height: 100%;
   transition: 1s all;
   margin: 0 auto;
-  background: #FFDBE4;
-  color: #F24440;
+  background: #FD6EA2;
+  color: #FFF;
 }
 p {
   font-family: 'Poppins', sans-serif;
@@ -52,7 +52,7 @@ li {
   color: #FFFFFF;
 }
 .purple body{
-  background: #5e5aff;
+  background: #3200DD;
   color: #FFFFFF;
 }
 .teal body{
@@ -67,21 +67,29 @@ li {
   background: #d7fd40;
   color: #000000;
 }
-.changeColor {
-  background: #430098;
+.bg1 {
+  background: #23AD5E;
   color: #FFFFFF;
 }
-.changeColor2 {
-  background: #F24440;
-  color: #FFDBE4;
-}
-.changeColor3 {
-  background: #000000;
+.bg2 {
+  background: #3200DD;
   color: #FFFFFF;
 }
-.changeColor4 {
-  background: #FFDBE4;
-  color: #F24440;
+.bg3 {
+  background: #FF0000;
+  color: #FFFFFF;
+}
+.bg4 {
+  background: #2654FF;
+  color: #FFFFFF;
+}
+.bg5 {
+  background: #00B9DE;
+  color: #FFFFFF;
+}
+.bg6 {
+  background: #FD6EA2;
+  color: #FFFFFF;
 }
 
 /* Layout */
@@ -120,21 +128,13 @@ li {
 
 /* Font */
 
-.Poppins {
-  font-size: 5em;
+.home p {
+  font-size: 4.5em;
   line-height: 1.2em;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 .underline {
   background-repeat: repeat-x;
-}
-.underline--bacon {
-  background-image: url("bacon.svg");
-  background-position: 0 1.2em;
-  background-size: 80px 20px;
-}
-.underline--bacon:hover {
-  color: #F24440;
 }
 .underline--burntbacon {
   background-image: url("burnt-bacon.svg");
@@ -279,26 +279,6 @@ li {
     height: 100%;
 }
 
-/* Face */
-
-.Face {
-  display: block;
-}
-.hi {
-  display: none;
-  width: 300px;
-  text-align: left;
-  transform: translate(90px, -55px);
-}
-.Happy:hover + .hi {
-  display: block;
-}
-.Message {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-}
-
 @media (min-width: 300px) and (max-width: 720px) {
 
   /* Layout */
@@ -331,10 +311,6 @@ li {
     font-size: 1.8em;
     line-height: 1.4em;
     margin-bottom: 50px;
-  }
-  .underline--bacon {
-    background-position: 0 1em;
-    background-size: 50px 20px;
   }
   .underline--burntbacon {
     background-position: 0 1em;
