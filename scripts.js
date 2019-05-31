@@ -1,21 +1,15 @@
 $(function() {
    $(window).scroll(function () {
       if ($(this).scrollTop() > 3700) {
-         $('body').addClass('bg6')
-      }
-      if ($(this).scrollTop() < 3700) {
-         $('body').removeClass('bg6')
-      }
-      if ($(this).scrollTop() > 3200) {
          $('body').addClass('bg5')
       }
-      if ($(this).scrollTop() < 3200) {
+      if ($(this).scrollTop() < 3700) {
          $('body').removeClass('bg5')
       }
-      if ($(this).scrollTop() > 2800) {
+      if ($(this).scrollTop() > 2600) {
          $('body').addClass('bg4')
       }
-      if ($(this).scrollTop() < 2800) {
+      if ($(this).scrollTop() < 2600) {
          $('body').removeClass('bg4')
       }
       if ($(this).scrollTop() > 2000) {

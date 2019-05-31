@@ -31,6 +31,10 @@ li {
 
 /* Backgrounds */
 
+.bg0 {
+  background: #0F072E;
+  color: #FFFFFF;
+}
 .bg1 {
   background: #23AD5E;
   color: #FFFFFF;
@@ -48,15 +52,7 @@ li {
   color: #FFFFFF;
 }
 .bg5 {
-  background: #00B9DE;
-  color: #FFFFFF;
-}
-.bg6 {
   background: #FD6EA2;
-  color: #FFFFFF;
-}
-.bg7 {
-  background: #0F072E;
   color: #FFFFFF;
 }
 
@@ -97,15 +93,13 @@ li {
   line-height: 1.2em;
   margin-bottom: 120px;
 }
-.underline {
+.bacon {
   background-repeat: repeat-x;
-}
-.underline--burntbacon {
   background-image: url("burnt-bacon.svg");
   background-position: 0 1.2em;
   background-size: 80px 20px;
 }
-.underline--burntbacon:hover {
+.bacon:hover {
   color: #0F072E;
 }
 .email {
@@ -120,7 +114,6 @@ li {
 .Company-info {
   font-size: 1.5em;
 }
-
 .Portfolio-list {
   font-size: 3em;
   color: #fff;
@@ -234,7 +227,7 @@ li {
     line-height: 1.4em;
     margin-bottom: 50px;
   }
-  .underline--burntbacon {
+  .bacon {
     background-position: 0 1em;
     background-size: 50px 20px;
   }
@@ -247,6 +240,9 @@ li {
     background-position: 0 0.7em;
     background-size: 60px 50px;
   }
+  .Back {
+    font-size: 2.2em;
+  }
   .Portfolio-h2 {
     font-size: 3em;
     line-height: 1.2em;
@@ -255,7 +251,7 @@ li {
   }
   .Portfolio-p {
     padding: 15px 0;
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 1.3em;
   }
 
