@@ -31,42 +31,6 @@ li {
 
 /* Backgrounds */
 
-.pink body{
-  background: #FFDBE4;
-  color: #F24440;
-}
-.red body{
-  background: #F24440;
-  color: #FFFFFF;
-}
-.blue body{
-  background: #1785FB;
-  color: #FFFFFF;
-}
-.green body{
-  background: #23AD5E;
-  color: #FFFFFF;
-}
-.violet body{
-  background: #967CD2;
-  color: #FFFFFF;
-}
-.purple body{
-  background: #3200DD;
-  color: #FFFFFF;
-}
-.teal body{
-  background: #046F84;
-  color: #FFFFFF;
-}
-.orange body{
-  background: #FF4003;
-  color: #FFFFFF;
-}
-.gray body{
-  background: #d7fd40;
-  color: #000000;
-}
 .bg1 {
   background: #23AD5E;
   color: #FFFFFF;
@@ -125,10 +89,6 @@ li {
 .Company-projects {
   width: 60%;
 }
-.Ethics-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 /* Font */
 
@@ -146,13 +106,13 @@ li {
   background-size: 80px 20px;
 }
 .underline--burntbacon:hover {
-  color: #000000;
+  color: #0F072E;
 }
 .email {
   word-break: break-word;
 }
 .Link:hover {
-  color: #000000;
+  color: #0F072E;
 }
 .Company {
   font-size: 2em;
@@ -161,39 +121,6 @@ li {
   font-size: 1.5em;
 }
 
-.Ethics-title {
-  font-size: 3em;
-  line-height: 1.4em;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  color: #000000;
-}
-.Ethics {
-  font-size: 2em;
-  line-height: 1.4em;
-  padding-bottom: 1em;
-}
-.Ethics-info {
-  font-size: 1.4em;
-  padding-bottom: 1em;
-  font-weight: 400;
-  line-height: 1.5em;
-}
-.Ethics-credit {
-  font-size: 1.2em;
-  padding-top: 2em;
-  font-weight: 400;
-  line-height: 1.6em;
-  color: #668000;
-}
-.Ethics-link {
-  background-image: url("burnt-bacon.svg");
-  background-position: 0 2.4em;
-  background-size: 42px 42px;
-}
-.Ethics-link:hover {
-  color: #000000;
-}
 .Portfolio-list {
   font-size: 3em;
   color: #fff;
