@@ -76,7 +76,7 @@ li {
   color: #FFFFFF;
 }
 .bg3 {
-  background: #FF0000;
+  background: #F24440;
   color: #FFFFFF;
 }
 .bg4 {
@@ -89,6 +89,10 @@ li {
 }
 .bg6 {
   background: #FD6EA2;
+  color: #FFFFFF;
+}
+.bg7 {
+  background: #0F072E;
   color: #FFFFFF;
 }
 
@@ -192,15 +196,15 @@ li {
 }
 .Portfolio-list {
   font-size: 3em;
-  color: #F24440;
+  color: #fff;
   display: inline;
   line-height: 1.2em;
-  background-image: url("burnt-bacon.svg");
-  background-position: 0 2.4em;
+  background-image: url("raw-bacon.svg");
+  background-position: 0 2.5em;
   background-size: 60px 115px;
 }
 .Portfolio-list:hover {
-  color: #000000;
+  color: #FD6EA2;
 }
 .Portfolio-h2 {
   font-size: 5em;
@@ -215,13 +219,13 @@ li {
   font-weight: 500;
 }
 .Portfolio-link {
-    background-image: url("burnt-bacon.svg");
+    background-image: url("raw-bacon.svg");
     background-position: 0 1.2em;
     background-size: 40px 5px;
     background-repeat: repeat-x;
 }
 .Portfolio-link:hover {
-  color: #000000;
+  color: #FD6EA2;
 }
 
 /* Back Arrow */
@@ -234,22 +238,13 @@ li {
 }
 .Back {
   font-size: 20px;
-  background-image: url("burnt-bacon.svg");
+  background-image: url("raw-bacon.svg");
   background-position: 0 2.4em;
   background-size: 40px 40px;
 }
 .Back:hover {
-  color: #000000;
-}
-.Back-white {
-  font-size: 20px;
-  background-image: url("bacon-white.svg");
-  background-position: 0 2.4em;
-  background-size: 40px 40px;
-}
-.Back-white:hover {
-  color: #F24440;
-  background-image: url("bacon.svg");
+  color: #FD6EA2;
+  background-image: url("raw-bacon.svg");
 }
 
 /* Assets */

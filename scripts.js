@@ -12,10 +12,10 @@ $(function() {
       if ($(this).scrollTop() < 3200) {
          $('body').removeClass('bg5')
       }
-      if ($(this).scrollTop() > 2600) {
+      if ($(this).scrollTop() > 2800) {
          $('body').addClass('bg4')
       }
-      if ($(this).scrollTop() < 2600) {
+      if ($(this).scrollTop() < 2800) {
          $('body').removeClass('bg4')
       }
       if ($(this).scrollTop() > 2000) {
