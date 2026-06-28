@@ -19,12 +19,15 @@
   <style>
 @media screen and (max-width: 767px) {
   .work-block[style*="display:flex"] {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .work-block[style*="display:flex"] .image-9 {
     width: 100%;
     max-width: 350px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .wrapper {
+    display: none;
   }
 }
 </style>
@@ -50,14 +53,12 @@
         <div style="flex:1">
           <div class="rtb-work w-richtext">
             <h1>Work</h1>
-            <p>I&#x27;m a Lead Product Designer at Salesforce, where I design for one of the largest developer and admin communities in enterprise software. Developer experience has been the thread through my whole career — translating designs into production code, working directly with engineers, and now designing most of my work directly in code using AI-assisted prototyping instead of static Figma mocks. I&#x27;m a co-inventor on a pending U.S. patent for a developer metadata inspection tool that started as a vision project and shipped years later.</p>
+            <p>I&#x27;m a <strong>Lead Product Designer at Salesforce</strong>, where I design for one of the largest developer and admin communities in enterprise software. Developer experience has been the thread through my whole career — translating designs into production code, working directly with engineers, and now designing most of my work directly in code using AI-assisted prototyping instead of static Figma mocks. I&#x27;m a co-inventor on a pending U.S. patent for a developer metadata inspection tool that started as a vision project and shipped years later.</p>
             <p>Accessibility, research, and mentoring have been constants since Carto. Co-founding the Heroku Accessibility Guild, working on their first VPAT audit, pioneering the Jobs-to-be-Done methodology still used internally, and mentoring emerging product designers through ADPList.</p>
           </div>
-          <div class="div-block-8">
-            <a href="Ariana_Escobar_Resume_2026.pdf" target="_blank" rel="noopener noreferrer" class="link-block w-inline-block">
-              <p class="paragraph-5">Resume</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
-            </a>
-          </div>
+          <a href="Ariana_Escobar_Resume_2026.pdf" target="_blank" rel="noopener noreferrer" class="link-block w-inline-block" style="margin-top:10px">
+            <p class="paragraph-5">View Resume</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
+          </a>
         </div>
         <img src="images/IMG_0115.webp" loading="lazy" width="350" sizes="(max-width: 479px) 81vw, (max-width: 767px) 360px, 350px" alt="Me with a big smile and a colorful shirt in front of a laptop." srcset="images/IMG_0115-p-800.webp 800w, images/IMG_0115-p-1080.webp 1080w, images/IMG_0115.webp 1200w" class="image-9" style="border-radius:8px">
       </div>
@@ -71,41 +72,53 @@
           <h5>from kind people</h5>
         </div>
         <div class="div-block-kind">
-          <div class="rtb-work-alt w-richtext">
-            <blockquote>She believes that great work comes from great partnerships—built on a deep sense of trust, collaboration, and shared values. </blockquote>
-            <p><strong>Michele Tepper</strong></p>
-            <p>Director of User Experience at Salesforce</p>
-            <p><em>Current Manager</em></p>
+          <div class="rtb-work-alt">
+            <blockquote>She believes that great work comes from great partnerships—built on a deep sense of trust, collaboration, and shared values.</blockquote>
+            <div class="attribution">
+              <p><strong>Michele Tepper</strong></p>
+              <p>Director of User Experience at Salesforce</p>
+              <p><em>Current Manager</em></p>
+            </div>
           </div>
-          <div class="rtb-work-alt w-richtext">
+          <div class="rtb-work-alt">
             <blockquote>You&#x27;re phenomenal!!! It&#x27;s been one of the greatest joys of my career to see your shine grow brighter and brighter.</blockquote>
-            <p><strong>Roberta Carraro</strong> </p>
-            <p>Head of Design at Docker</p>
-            <p><em>Former Manager</em></p>
+            <div class="attribution">
+              <p><strong>Roberta Carraro</strong></p>
+              <p>Head of Design at Docker</p>
+              <p><em>Former Manager</em></p>
+            </div>
           </div>
-          <div class="rtb-work-alt w-richtext">
+          <div class="rtb-work-alt">
             <blockquote>Ariana has been on FIRE! Please join me in saying a HUGE thank you to her and the impact she is making for our team in such a short time and with the fastest ramp up!!!</blockquote>
-            <p><strong>Gery Gutnik</strong></p>
-            <p>Senior Director of Product Management at Salesforce</p>
-            <p><em>Current colleague</em></p>
+            <div class="attribution">
+              <p><strong>Gery Gutnik</strong></p>
+              <p>Senior Director of Product Management at Salesforce</p>
+              <p><em>Current colleague</em></p>
+            </div>
           </div>
-          <div class="rtb-work-alt w-richtext">
+          <div class="rtb-work-alt">
             <blockquote>Damn Ariana does some amazing designs. If we can get even close to her visions we&#x27;re gonna be wildly successful.</blockquote>
-            <p><strong>Kris Gray</strong></p>
-            <p>Staff Engineer at Airbnb</p>
-            <p><em>Former colleague</em></p>
+            <div class="attribution">
+              <p><strong>Kris Gray</strong></p>
+              <p>Staff Engineer at Airbnb</p>
+              <p><em>Former colleague</em></p>
+            </div>
           </div>
-          <div class="rtb-work-alt w-richtext">
+          <div class="rtb-work-alt">
             <blockquote>I am just playing around with the new website and YOU DID SUCH AN AMAZING JOB this is going to be a total game changer for our developers.</blockquote>
-            <p><strong>Geordie Kaytes</strong></p>
-            <p>Design Executive at PayPal</p>
-            <p><em>Former colleague</em></p>
+            <div class="attribution">
+              <p><strong>Geordie Kaytes</strong></p>
+              <p>Design Executive at PayPal</p>
+              <p><em>Former colleague</em></p>
+            </div>
           </div>
-          <div class="rtb-work-alt w-richtext">
+          <div class="rtb-work-alt">
             <blockquote>You are <em>unquestionably</em> my favourite human being in meetings.</blockquote>
-            <p><strong>Charlie Gleason</strong></p>
-            <p>Principal Systems Engineer at Cloudflare</p>
-            <p><em>Former colleague</em></p>
+            <div class="attribution">
+              <p><strong>Charlie Gleason</strong></p>
+              <p>Principal Systems Engineer at Cloudflare</p>
+              <p><em>Former colleague</em></p>
+            </div>
           </div>
         </div>
       </div>
@@ -115,7 +128,7 @@
     <div class="div-block-2">
       <div class="rtb-portfolio w-richtext">
         <h3>Portfolio</h3>
-        <h2>Salesforce / Case Studies</h2>
+        <h2>Salesforce</h2>
         <p>To abide by Intellectual Property policies, these case studies are password protected. <a href="mailto:boo@arianaescobar.com"><strong>Contact me</strong></a> to get access.</p>
       </div>
       <div class="div-block-6">
@@ -145,7 +158,7 @@
   <div class="carto w-container">
     <div class="div-block-2">
       <div class="rtb-portfolio w-richtext">
-        <h2>Carto / Project Overviews</h2>
+        <h2>Carto</h2>
       </div>
       <div class="div-block-6">
         <h2 data-w-id="749e58c1-d9b8-0876-42fa-083b1484240c" style="opacity:0" class="heading-7">2018</h2>
@@ -154,7 +167,7 @@
             <a href="portfolio/carto-builder.html" class="link">An analysis tool to predict insights from location data</a>
           </h1>
           <a href="portfolio/carto-builder.html" class="link-block w-inline-block">
-            <p class="paragraph-5">View project</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
+            <p class="paragraph-5">View Project</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
           </a>
         </div>
       </div>
@@ -169,45 +182,12 @@
           </a>
         </div>
       </div>
-      <div class="div-block-6">
-        <h2 data-w-id="3574811e-2f59-02d9-2466-e232e1b043c5" style="opacity:0" class="heading-7">2017</h2>
-        <div data-w-id="3574811e-2f59-02d9-2466-e232e1b043c7" style="opacity:0" class="div-block-portfolio">
-          <h1 class="heading-6">
-            <a href="portfolio/carto-locations.html" class="link">Designing a professional event in Spain&#x27;s capital</a>
-          </h1>
-          <a href="portfolio/carto-locations.html" class="link-block w-inline-block">
-            <p class="paragraph-5">View Project</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
-          </a>
-        </div>
-      </div>
-      <div class="div-block-6">
-        <h2 data-w-id="b6384185-5ac4-accb-cdac-a81e52c26db8" style="opacity:0" class="heading-7">2016</h2>
-        <div data-w-id="b6384185-5ac4-accb-cdac-a81e52c26dba" style="opacity:0" class="div-block-portfolio">
-          <h1 class="heading-6">
-            <a href="portfolio/carto-brand.html" class="link">Rebranding CartoDB to Carto</a>
-          </h1>
-          <a href="portfolio/carto-brand.html" class="link-block w-inline-block">
-            <p class="paragraph-5">View Project</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
-          </a>
-        </div>
-      </div>
     </div>
   </div>
   <div class="hipertextual w-container">
     <div class="div-block-2">
       <div class="rtb-portfolio w-richtext">
-        <h2>Hipertextual / Project Overviews</h2>
-      </div>
-      <div class="div-block-6">
-        <h2 data-w-id="17bb2fe1-89f7-f9b7-283d-05c60dff63de" style="opacity:0" class="heading-7">2015</h2>
-        <div data-w-id="17bb2fe1-89f7-f9b7-283d-05c60dff63e0" style="opacity:0" class="div-block-portfolio">
-          <h1 class="heading-6">
-            <a href="portfolio/hipertextual-gift-guide.html" class="link">Full creative freedom to design a holiday gift guide</a>
-          </h1>
-          <a href="portfolio/hipertextual-gift-guide.html" class="link-block w-inline-block">
-            <p class="paragraph-5">View Project</p><img src="images/noun_Right-Arrow_3525039-1.svg" loading="lazy" width="20" alt="Next page" class="image-5">
-          </a>
-        </div>
+        <h2>Hipertextual</h2>
       </div>
       <div class="div-block-6">
         <h2 data-w-id="17bb2fe1-89f7-f9b7-283d-05c60dff63e6" style="opacity:0" class="heading-7">2012</h2>
