@@ -1081,9 +1081,9 @@ figcaption {
   margin-bottom: 0;
   padding-bottom: 0;
   font-family: Inter, sans-serif;
-  font-size: 92px;
+  font-size: 120px;
   font-weight: 600;
-  line-height: 104px;
+  line-height: 120px;
 }
 
 .rtb-cs-header h4 {
@@ -2436,8 +2436,8 @@ figcaption {
   .rtb-cs-header h1 {
     letter-spacing: -4px;
     width: 100%;
-    font-size: 124px;
-    line-height: 136px;
+    font-size: 120px;
+    line-height: 120px;
   }
 
   .rtb-cs-header a:hover {
@@ -3124,7 +3124,7 @@ figcaption {
     letter-spacing: -2px;
     padding-bottom: 0;
     font-size: 72px;
-    line-height: 84px;
+    line-height: 92px;
   }
 
   .rtb-cs-header h2 {
@@ -3889,7 +3889,7 @@ figcaption {
 
   .rtb-cs-header h1 {
     font-size: 56px;
-    line-height: 64px;
+    line-height: 62px;
   }
 
   .body-gradient.home {
