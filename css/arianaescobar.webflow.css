@@ -356,8 +356,9 @@ figcaption {
   color: var(--black);
   letter-spacing: -.5px;
   font-family: Inter, sans-serif;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 30px;
 }
 
 .container-2 {
@@ -595,11 +596,14 @@ figcaption {
 .navlink:hover {
   color: var(--black);
   background-color: #ffffff29;
+  border-radius: 999px;
   text-decoration: none;
 }
 
 .navlink.w--current {
   color: var(--black);
+  background-color: #0000000f;
+  border-radius: 999px;
 }
 
 .navlink.home {
@@ -613,6 +617,12 @@ figcaption {
 
 .navlink.playground {
   color: var(--white);
+}
+
+.navlink.playground.w--current {
+  color: var(--white);
+  background-color: #ffffff40;
+  border-radius: 999px;
 }
 
 .nav-white {
@@ -851,6 +861,10 @@ figcaption {
   -webkit-text-fill-color: inherit;
   background-color: #b8deff;
   background-clip: border-box;
+}
+
+.body-blog {
+  background-color: #f4f4f4;
 }
 
 .heading-6 {
@@ -1105,6 +1119,19 @@ figcaption {
   font-family: Oliver, sans-serif;
   font-size: 36px;
   line-height: 64px;
+}
+
+.rtb-cs-header h2 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.body-blog .rtb-cs-header {
+  width: 100%;
+}
+
+.body-blog .rtb-cs-header h1 {
+  width: 100%;
 }
 
 .next-page {
@@ -1700,6 +1727,16 @@ figcaption {
 
 .div-block-11 {
   overflow: hidden;
+}
+
+.div-block-blog-entries {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 60px;
 }
 
 .div-block-portfolio {
@@ -2998,7 +3035,7 @@ figcaption {
 
   .div-block-4 {
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -3106,7 +3143,7 @@ figcaption {
   .rtb-cs-header {
     align-self: flex-start;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-right: 0;
   }
 
@@ -3124,7 +3161,7 @@ figcaption {
     letter-spacing: -2px;
     padding-bottom: 0;
     font-size: 72px;
-    line-height: 92px;
+    line-height: 78px;
   }
 
   .rtb-cs-header h2 {
@@ -3141,6 +3178,7 @@ figcaption {
   }
 
   .header {
+    margin-bottom: 20px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -3398,6 +3436,12 @@ figcaption {
   }
 
   .div-block-portfolio {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .div-block-blog-entries {
     margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
@@ -3733,8 +3777,21 @@ figcaption {
     background-color: var(--black)0;
   }
 
+  .navlink.w--current {
+    background-color: var(--black);
+    border-radius: 0;
+  }
+
   .navlink.home.w--current {
     color: var(--white);
+    background-color: var(--black);
+    border-radius: 0;
+  }
+
+  .navlink.playground.w--current {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 0;
   }
 
   .navlink.playground {
@@ -3901,7 +3958,7 @@ figcaption {
   }
 
   .header {
-    margin-bottom: 40px;
+    margin-bottom: 0;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -4606,7 +4663,7 @@ figcaption {
   }
 
   .rtb-cs-header {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: 0;
   }
 
@@ -4722,7 +4779,7 @@ figcaption {
   }
 
   .playground-main-content {
-    padding: 20px;
+    padding: 20px 40px;
   }
 
   .container-8 {
